@@ -1,0 +1,30 @@
+/* FORM STYLES */
+h1 {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.form-container {
+  /* background-color: aqua; */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+div.form--input-container {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 10px;
+}
+div.form--input-container label {
+  text-align: right;
+}
+div.form--input-container label:after {
+  content: ":";
+}
+
+#form--submit-btn {
+  text-align: center;
+  margin-top: 1rem;
+}
